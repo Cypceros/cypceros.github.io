@@ -1,0 +1,135 @@
+
+     header {border-style:hidden;
+       margin-bottom: 10px;
+       height: auto;
+       background:#A0AECD ;
+       align-items: center;
+       font-weight: bold;
+       font-family: inherit;
+       font-style: bold;
+    
+     
+      }
+    h1{border-style: solid;
+       margin-bottom: 10px;
+       height: auto;
+       background:#A0AECD ;
+       display: grid;
+       justify-content: space-around;
+       align-items: center;
+       font-weight: normal;
+       font-family: inherit;
+    
+}
+    h3{font-family: sans-serif;
+    
+}
+    p{font-size: 20px;
+    
+}
+      .page-title{
+        background-color: #A0AECD;
+        position: inherit;
+        padding-top: 18px;
+        padding-bottom: 17px;
+        border-bottom: 1px solid black;
+        color: grey;
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1.5rem;
+      }
+      .page-title span{
+        color: grey;
+      }
+
+      body {
+        display:block;
+        padding: 10px;
+        background-image: url('backgroundimage.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+img.left {
+    float: left;
+    width: 345px;
+    height: auto;
+    margin-left: 50px;
+}
+img.right {
+    float:right;
+    width: 345px;
+    height: auto;
+    margin-right: 150px;
+}
+img.center {
+    width:365px;
+    height: auto;
+    margin-left: 250px;
+    
+}
+img.ProductOne {
+    float:none;
+    width: 300px;
+    height: auto;
+    
+}
+
+article {
+    display: block;
+}
+table, th, td {
+  border:1px solid black;
+    width: 1000px
+}
+
+footer {
+    margin-top: auto;
+}
+thirdfooter {
+    margin-top: 1000px;
+}
+
+iframe{
+border-bottom-color: orange;
+border-top-color: orange;
+border-bottom-style: solid;
+border-top-style: solid;
+}
+    
+@media screen and (min-width: 400px) {
+  body {
+    background-color: black;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: black;
+  }
+}
+.container {
+  border-radius: 5px;
+  padding: 200px;
+    background-color: white;
+    display: block;
+}
+button[type=button] {
+    color: blue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    
+}
+input[type=text] , textarea {
+    width: 100%;
+    padding:15px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
